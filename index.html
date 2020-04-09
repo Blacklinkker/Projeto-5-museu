@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Museu Nacional</title>
+		<meta charset="utf-8">
+		<!--Normalize-->
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<!--shiv-->
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!--inicio CONTAINER-->
+		<div id="container">
+			
+			<!--inicio header-->
+			<header>
+				
+				<div id="logo">
+					<h1><a href="">Museu nacional</a></h1>
+				</div>
+
+				<!--inicio navegação-->
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Exposições</a></li>
+						<li><a href="#">Pesquisa</a></li>
+						<li><a href="#">Acervo</a></li>
+						<li><a href="#">Vídeos</a></li>
+						<li><a href="#">Fotos</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</nav>
+				<!--fim navegação-->
+
+			</header>
+			<!--fim header-->
+
+			<!--inicio principal-->
+			<div id="principal">
+				
+				<!--inicio conteudo-->
+				<div id="conteudo">
+					<section id="capa">
+						<img src="museu.png">
+					</section>
+
+					<section id="postagens">
+						<article id="video">
+							<h3>Video: Conheça o museu</h3>
+							<iframe width="310" height="170" src="https://www.youtube.com/embed/kt1RUa_E534" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+						</article>
+					
+						<article id="mapa">
+							<h3>Encontre o museu</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1767.94027213574!2d-48.5515736418457!3d-27.59723287830619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527382413d70529%3A0x5ed250f064e1c9a!2sMercado%20P%C3%BAblico%20de%20Florian%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1585446041792!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</article>
+
+						<article id="exposicoes">
+							<h3>Exposições</h3>
+							<ul>
+								<li>
+									<a href="">Os assustadores insetos</a>
+								</li>
+
+								<li>
+									<a href="">Crânio de luzia</a>
+								</li>
+
+								<li>
+									<a href="">Preguiça gigante</a>
+								</li>
+
+								<li>
+									<a href="">Patanos tenebrosos</a>
+								</li>
+
+								<li>
+									<a href="">Xicóerias gigantes</a>
+								</li>
+
+								<li>
+									<a href="">Peste negra</a>
+								</li>
+
+								<li>
+									<a href="">Dinossauros extintos</a>
+								</li>
+
+								<li>
+									<a href=""><strong>Veja todos (25)</strong></a>
+								</li>
+							</ul>
+						</article>
+
+						<article id="historia">
+							<h3>200 Anos de história</h3>
+							<p>
+								Um vídeo, divulgado nas redes sociais, mostra centenas de macacos brigando por causa de banana nas ruas da cidade de Lopburi, na Tailândia. Geralmente os primatas são alimentados por turistas que visitam o país, mas devido à pandemia do novo coronavírus o número de visitantes têm diminuído.
+							</p>
+							<a href=""><strong>Leia mais</strong></a>
+						</article>
+					</section>
+				
+				</div>
+				<!--fim conteudo-->
+
+
+				
+				<!--inicio aside-->
+				<aside>
+					<section id="depoimento">
+						<img src="depoimento.png">
+					</section>
+
+					<!--inicio visita-->
+					<section id="visita">
+						<h4>Faça uma visita</h4>
+						<form>
+							<fieldset>
+								<legend>Selecione uma data</legend>
+
+								<label for="data">Data</label>
+								<input type="date" class="campo" id="data" value="">
+								<br>
+								<label for="pessoas">Qtd. de pessoas</label>
+								<input type="text" class="campo" name="pessoas" id="pessoas" value="1" style="width: 30px;">
+							</fieldset>
+							<input type="submit" class="botao" value="Verificar disponibilidade">
+						</form>
+					</section>
+					<!--fim visita-->
+
+					<section id="galeria">
+						<h1>Galeria de fotos</h1>
+						<a href="">
+							<img src="imagem1.jpg" height="93" width="93" alt="metr"o>
+						</a>
+
+						<a href="">
+							<img src="imagem2.jpg" height="93" width="93">
+						</a>
+
+						<a href="">
+							<img src="imagem3.jpg" height="93" width="93">
+						</a>
+
+						<a href="">
+							<img src="imagem4.jpg" height="93" width="93">
+						</a>
+					</section>
+
+				</aside>
+				<!--fim aside-->
+
+			</div>
+			<!--fim principal-->
+
+			<!-- inicio footer-->
+			<footer>
+				<p>
+					<a href="#">Home</a>
+					<a href="#">Exposições</a>
+					<a href="#">Pesquisa</a>
+					<a href="#">Acervo</a>
+					<a href="#">Vídeos</a>
+					<a href="#">Fotos</a>
+					<a href="#">Contato</a>
+				</p>	
+				<h4><strong>&copy; 2020 Todos os direitos reservados.</strong></h4>
+			</footer>
+			<!-- inicio footer-->
+			
+
+		</div>
+		<!--fim CONTAINER-->
+	</body>
+</html>
